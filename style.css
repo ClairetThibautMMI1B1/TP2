@@ -1,7 +1,7 @@
 #container
 {
 	margin: 0px;
-	background: #ddd;
+	background: #fff;
 }
 
 #header
@@ -20,7 +20,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #000;
 }
 
 #navigation ul
@@ -52,16 +52,15 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 2px #cccccc;
+	box-shadow: 0px 0px 2px #cccccc;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
 }
 
 #edito h2
@@ -77,22 +76,21 @@
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 2px #cccccc;
+	box-shadow: 0px 0px 2px #cccccc;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #ddd;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
